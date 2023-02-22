@@ -1,0 +1,11 @@
+tancok = [
+    {'tancnev': "cha-cha", 'lany': "Luca", 'fiu': "Kelemen"},
+    {'tancnev': "rumba", 'lany': "Katalin", 'fiu': "Bertalan"},
+    {'tancnev': "cha-cha", 'lany': "Adrienn", 'fiu': "Lajos"},
+    {'tancnev': "samba", 'lany': "Emma", 'fiu': "Igor"},
+    {'tancnev': "rumba", 'lany': "Vilmos", 'fiu': "Kolos"}
+]
+
+print('2. feladat')
+print(f"Az elsőként bemutatott tánc neve: {tancok[0]['tancnev']}")
+print(f"Az utolsóként bemutatott tánc neve: {tancok[-1]['tancnev']}")
